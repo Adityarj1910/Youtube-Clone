@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="main-grid">
+        <section class="sidebar" id="sidebar">
+            <div class="logo">
+                <a href="#">
+                    <img src="/src/youtube.png" width="90%" class="ytimg">
+                </a>
+            </div>
+            <div class="sidebar-inner">
+                <div class="item-container">
+                    <ul class="sidebar-item-section sidebar-item-section1">
+                        <li class="sidebar-active">
+                            <a href="#">
+                                <span class="item-icon">
+                                    <img src="/src/home.png" class="icon">
+                                </span>
+                                <span class="item-title">
+                                    Home
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="item-icon">
+                                    <img src="/src/subscription.png" class="icon">
+                                </span>
+                                <span class="item-title">
+                                    Subscription
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="item-icon">
+                                    <img src="/src/history.png" class="icon">
+                                </span>
+                                <span class="item-title">
+                                    History
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="item-icon">
+                                    <img src="/src/watchlater.png" class="icon">
+                                </span>
+                                <span class="item-title">
+                                    Watch Later
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="item-icon">
+                                    <img src="/src/liked.png" class="icon">
+                                </span>
+                                <span class="item-title">
+                                    Liked videos
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="sidebar-item-section sidebar-item-section2" id="subscription">
+                        <div class="section-title">
+                            Subscription
+                        </div>
+                        <!-- here we inject the html for subscription -->
+                    </ul>
+
+                    <ul class="sidebar-item-section3">
+                        <div class="nav-item-section nav-item-section2">
+                            
+                            <div class="profile-icon">
+                                <span class="profile-pic">
+                                    <img src="/src/https://assets.codepen.io/9240354/internal/avatars/users/default.png"
+                                        alt="Profile">
+                                </span>
+                                <span class="arrow-down-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-chevron-down">
+                                        <path d="m6 9 6 6 6-6" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="nav-bar">
+            <div class="nav-item-section nav-item-section1">
+                
+            </div>
+            <div class="search-bar-section">
+                <input type="text" placeholder="search" />
+                <button class="search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="nav-item-section nav-item-section2">
+                    <div class="profile-icon" tabindex="0">
+                        <span class="profile-pic">
+                            <img src="/src/https://assets.codepen.io/9240354/internal/avatars/users/default.png?format=auto&version=1690567068&width=80&height=80"
+                                alt="Profile">
+                        </span>
+                        <span class="arrow-down-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-chevron-down">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+        </section>
+        <section class="catagories">
+            <span>All</span>
+            <span>UI Design</span>
+            <span>Gaming</span>
+            <span>Superheroes</span>
+            <span>Web Development</span>
+            <span>VFX</span>
+            <span>Java Script</span>
+            <span>Art & Craft</span>
+            <span>New to you</span>
+            <span>Live</span>
+            <span>Blender</span>
+            <span>Adobe</span>
+            <span>marvel Studios</span>
+            <span>Star Wars</span>
+            <span>UI/UX</span>
+        </section>
+        <section class="main" id="main">
+            <!-- here we inject the html for video cards -->
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
